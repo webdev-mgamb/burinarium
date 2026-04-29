@@ -1,0 +1,296 @@
+:root {
+    --bg-color: #F9F8F5;
+    --primary-color: #4A5D4E; /* Sage Green */
+    --text-color: #2C2C2C;
+    --accent-color: #A3B18A;
+    --white: #FFFFFF;
+    --shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, .logo {
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* Header & Nav */
+header {
+    background: rgba(249, 248, 245, 0.8);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--primary-color);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: var(--transition);
+}
+
+.nav-links a:hover {
+    color: var(--primary-color);
+}
+
+/* Hero Section */
+.hero {
+    padding: 12rem 2rem 6rem;
+    text-align: center;
+    background: linear-gradient(180deg, #F0EFEB 0%, var(--bg-color) 100%);
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+    font-weight: 400;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #666;
+    font-weight: 300;
+}
+
+/* Plant Grid */
+.plant-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2.5rem;
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.plant-card {
+    background: var(--white);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,0.02);
+}
+
+.plant-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 1.5rem;
+}
+
+.card-content h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.card-content p {
+    font-style: italic;
+    color: #888;
+    font-size: 0.9rem;
+}
+
+/* Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    backdrop-filter: blur(5px);
+    overflow-y: auto;
+}
+
+.modal-content {
+    background-color: var(--bg-color);
+    margin: 5% auto;
+    padding: 3rem;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 900px;
+    position: relative;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+}
+
+.close-button {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #aaa;
+    transition: var(--transition);
+}
+
+.close-button:hover {
+    color: var(--text-color);
+}
+
+.modal-header h2 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.modal-header .latin-name {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #888;
+    margin-bottom: 2rem;
+}
+
+.modal-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 1.2rem 1rem;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .logo {
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+    }
+
+    .nav-links {
+        gap: 1.5rem;
+    }
+
+    .nav-links a {
+        font-size: 0.8rem;
+    }
+
+    .modal-grid {
+        grid-template-columns: 1fr;
+    }
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+}
+
+.modal-section {
+    margin-bottom: 2rem;
+}
+
+.modal-section h4 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--accent-color);
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+.fun-fact-box {
+    background: #E9ECEF;
+    padding: 1.5rem;
+    border-radius: 12px;
+    font-style: italic;
+    margin-top: 2rem;
+}
+
+.safety-notice {
+    background: #FFF4F2;
+    border-left: 4px solid #E63946;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+    background: var(--white);
+    padding: 4rem 2rem;
+    text-align: center;
+    border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.safety-footer {
+    margin-top: 2rem;
+    font-weight: 600;
+    color: #E63946;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.plant-card {
+    animation: fadeIn 0.6s ease forwards;
+}

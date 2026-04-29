@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burinarium | Herbár obyčajných divov</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">BURINARIUM</div>
+            <ul class="nav-links">
+                <li><a href="#plants">Rastliny</a></li>
+                <li><a href="#about">O projekte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Objavte krásu v obyčajnom</h1>
+                <p>Herbár a vedomostná základňa venovaná bežným „burinám“, ktoré nás obklopujú. Každá rastlina má svoj príbeh, stratégiu a skrytý úžitok.</p>
+            </div>
+        </section>
+
+        <section id="plants" class="plant-grid">
+            <!-- Cards will be injected by JavaScript -->
+        </section>
+    </main>
+
+    <footer id="about">
+        <div class="footer-content">
+            <h3>O Burináriu</h3>
+            <p>Tento projekt je poctou odolnosti a vynaliezavosti rastlín, ktoré často prehliadame. Burinárium slúži ako most medzi botanickou vedou a každodenným životom.</p>
+            <p class="safety-footer">⚠️ Vždy buďte 100% istí identifikáciou pred konzumáciou akejkoľvek divokej rastliny.</p>
+        </div>
+    </footer>
+
+    <!-- Modal for Plant Details -->
+    <div id="plant-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="modal-body">
+                <!-- Data will be injected here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
