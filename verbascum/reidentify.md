@@ -1,0 +1,1 @@
+Listy su pichlave a maju tmavozelenu farbu.
