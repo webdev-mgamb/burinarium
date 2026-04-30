@@ -117,17 +117,17 @@ const plants = [
         safety: 'V záhrade je veľmi invázny a ťažko sa odstraňuje.'
     },
     {
-        id: 'verbascum',
-        title: 'Plstnatý Obor a Kráľovská Svieca',
-        slovakName: 'Divozel obyčajný',
-        latinName: 'Verbascum thapsus',
-        family: 'Scrophulariaceae (Krtičníkovité)',
-        image: 'verbascum/verbascum.JPG',
-        story: 'Divozel je majestátna dvojročná rastlina. Jeho husté plstnaté chĺpky na listoch fungujú ako termoizolácia a ochrana pred vysychaním. Semená si v pôde zachovávajú klíčivosť viac ako 100 rokov.',
-        culinary: 'Nie je bežne kulinársky využívaný, ale kvety sú kľúčové pre prípravu sirupov a čajov.',
-        medicinal: 'Jeden z najlepších liekov na suchý kašeľ a astmu. Saponíny uľahčujú vykašliavanie a chránia sliznice.',
-        funFact: 'V starovekom Ríme sa suché stonky namáčali do vosku a používali sa ako fakle (kráľovská svieca).',
-        safety: 'Divozelový čaj sa musí vždy scediť cez jemné plátno, pretože chĺpky z listov môžu dráždiť hrdlo.'
+        id: 'cirsium',
+        title: 'Pichľavý Strážca Pôdy a Pastvín',
+        slovakName: 'Pichliač obyčajný',
+        latinName: 'Cirsium vulgare',
+        family: 'Asteraceae (Astrovité)',
+        image: 'cirsium-vulgare/cirsium-vulgare-3.JPG',
+        story: 'Pichliač obyčajný je majstrom v obrane. Jeho stratégia je založená na "pichľavej diplomacii" – máloktorý bylinožravec má chuť zahryznúť sa do listov posiatych ostrými tŕňmi. Ako dvojročná rastlina investuje svoj prvý rok do vybudovania mohutného kolovitého koreňa a prízemnej ružice, ktorá si nárokuje priestor v okolí. Je to pioniersky druh, ktorý rýchlo obsadzuje narušené pôdy, pasienky a okraje ciest.',
+        culinary: 'Mladé, ešte mäkké stredy listových ružíc sa dajú po odstránení pichľavých okrajov konzumovať surové v šalátoch. Olúpané mladé kvitnúce stonky majú po uvarení chuť pripomínajúcu špargľu alebo artičoky.',
+        medicinal: 'V tradičnom liečiteľstve sa koreň používal vo forme odvaru pri žalúdočných problémoch a kŕčoch. Odvary z listov sa aplikovali zvonka na zle sa hojace rany pre ich mierne sťahujúce účinky.',
+        funFact: 'Pichliač je národným symbolom Škótska. Legenda hovorí, že výkrik nórskeho útočníka, ktorý stúpil na pichliač, varoval Škótov pred nočným útokom.',
+        safety: 'Pri zbere a spracovaní vždy používajte pevné rukavice kvôli ostrým pichliačom. Zbierajte len v čistých oblastiach.'
     }
 ];
 
