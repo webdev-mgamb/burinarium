@@ -1,1 +1,1 @@
-Based on the case name look at the case folder and find instructions for that case.
+Based on the case name look at the cases folder and find instructions for that case.

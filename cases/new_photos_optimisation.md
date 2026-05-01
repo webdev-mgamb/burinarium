@@ -1,1 +1,0 @@
-Run the script and for optimize new photos in all folders.

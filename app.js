@@ -128,6 +128,19 @@ const plants = [
         medicinal: 'V tradičnom liečiteľstve sa koreň používal vo forme odvaru pri žalúdočných problémoch a kŕčoch. Odvary z listov sa aplikovali zvonka na zle sa hojace rany pre ich mierne sťahujúce účinky.',
         funFact: 'Pichliač je národným symbolom Škótska. Legenda hovorí, že výkrik nórskeho útočníka, ktorý stúpil na pichliač, varoval Škótov pred nočným útokom.',
         safety: 'Pri zbere a spracovaní vždy používajte pevné rukavice kvôli ostrým pichliačom. Zbierajte len v čistých oblastiach.'
+    },
+    {
+        id: 'lactuca',
+        title: 'Divoký pradedo s tŕnitou chrbticou a vnútorným kompasom',
+        slovakName: 'Šalát kompasový',
+        latinName: 'Lactuca serriola',
+        family: 'Asteraceae (Astrovité)',
+        image: 'lactuca-serriola/B.JPG',
+        story: 'Nenechajte sa zmiasť slovom „šalát“ – táto rastlina nie je žiadna krehká padavka, ale drsný bojovník. Jej najväčším tajomstvom sú drobné, ostražité pichliače umiestnené presne na chrbte stredovej žily každého listu. Chránia rastlinu zospodu pred slimákmi a hmyzom. To najfascinujúcejšie však rastlina predvedie až v lete, keď z tejto ružice vyženie vysokú stonku s listami. Aby sa ochránila pred spálením od horúceho poludňajšieho slnka, jej listy sa na stonke skrútia o 90 stupňov a otočia sa hranou presne do smeru sever – juh. Vďaka tomuto úžasnému prispôsobeniu (tzv. fototropizmu) rastlina funguje ako živý kompas!',
+        culinary: 'Verili by ste, že z tejto tŕnitej, horkej buriny po stáročiach šľachtenia vznikol náš jemný hlávkový šalát (Lactuca sativa)? Kým sú listy veľmi mladé a ich pichliače sú ešte len svetlé a mäkké, dajú sa po odstránení stredovej žily jesť. Sú však neporovnateľne horkejšie než bežný šalát.',
+        medicinal: 'Ak list odtrhnete, vyroní bielu šťavu zvanú laktukárium. V 19. storočí sa zasušené laktukárium zberalo a predávalo lekárnikmi pod názvom "šalátové ópium". Má totiž mierne sedatívne a analgetické účinky. Tradične sa odvary z mladých listov používali na liečbu nespavosti, tlmenie úzkosti a zmiernenie kašľa.',
+        funFact: 'Starí Rimania šalát kompasový milovali nielen ako liek na spanie, ale paradoxne aj pre jeho údajnú schopnosť podporovať romantické túžby. Neskôr v stredoveku ho však mnísi pestovali pri kláštoroch z úplne opačného dôvodu – verili, že jeho chladivá a upokojujúca povaha utlmuje nežiaduce vášne.',
+        safety: 'Hoci sa mu hovorí šalát, konzumácia vo veľkých množstvách sa neodporúča. Biele mlieko (laktukárium) obsahuje účinné látky, ktoré vo vysokej dávke môžu pôsobiť toxicky, spôsobiť ospalosť, závraty a nevoľnosť. Vždy si buďte 100% istí identifikáciou.'
     }
 ];
 
